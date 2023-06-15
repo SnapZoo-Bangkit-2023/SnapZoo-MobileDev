@@ -29,12 +29,13 @@
         android:layout_marginTop="24dp"
         android:gravity="left"
         android:text="@string/article_one"
-        android:textColor="@color/black"
+        android:textColor="?attr/colorOnSecondary"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.141"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_desc_article"
         app:layout_constraintTop_toBottomOf="@+id/iv_detail_article" />
 
     <androidx.cardview.widget.CardView
@@ -58,6 +59,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
+            android:textColor="?attr/colorControlHighlight"
             android:layout_marginBottom="8dp"
             android:text="@string/Description_dummy"
             android:textSize="16sp" />
