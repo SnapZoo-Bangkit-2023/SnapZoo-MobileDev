@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "203754822994",
+    "firebase_url": "https://snapzoo-capstone-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "snapzoo-capstone",
+    "storage_bucket": "snapzoo-capstone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203754822994:android:624f13c5315ffd5fcc2e8b",
+        "android_client_info": {
+          "package_name": "com.example.snapzoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203754822994-tv1ri8oqanuc6j68vv2dkquurd1ehj35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.snapzoo",
+            "certificate_hash": "e95bc6824455903461e856fba0ff92579af9f962"
+          }
+        },
+        {
+          "client_id": "203754822994-3fhhqsuubopcdv20h9103ta0bjpjmm3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoLeohPqJ3ZQAh-b0mt-PzIqM4D8aDpTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203754822994-3fhhqsuubopcdv20h9103ta0bjpjmm3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

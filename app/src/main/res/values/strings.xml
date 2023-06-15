@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">SnapZoo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="Camera">Camera</string>
+    <string name="Search">Search</string>
+    <string name="onBoarding1">Easy application to know what animal you meet in the zoo</string>
+    <string name="onBoarding2">Take a photo of the animal you meet, and we will help you identify what type of animal it is</string>
+    <string name="continue_button">Continue</string>
+    <string name="start_button">Start</string>
+    <string name="Classification_tittle">CLASSIFICATION</string>
+    <string name="Kingdom_tittle">KINGDOM</string>
+    <string name="Phylum_tittle">PHYLUM</string>
+    <string name="Class_tittle">CLASS</string>
+    <string name="Order_title">ORDER</string>
+    <string name="Family_title">FAMILY</string>
+    <string name="Genus_tittle">GENUS</string>
+    <string name="Species_tittle">SPECIES</string>
+    <string name="Description">DESCRIPTION</string>
+    <string name="Habitat">HABITAT</string>
+    <string name="Reproduction">REPRODUCTION</string>
+    <string name="Diet">DIET</string>
+    <string name="Description_dummy">Ini adalah contoh deskripsi dari hewan pada gambar diatas, kalimat ini hanya data sementara.</string>
+    <string name="Nama_hewan">nama hewan</string>
+    <string name="Article">Articles</string>
+    <string name="noImage">Please capture the animal image first!</string>
+    <string name="article_one">10 Fascinating Fun Facts About Lions: The Majestic Kings of the Savanna</string>
+    <string name="article_two">Zoo/s Sweethearts: Delving into the Most Adored Animals by Visitors</string>
+
+    <string-array name="data_title">
+        <item>10 Fascinating Fun Facts About Lions: The Majestic Kings of the Savanna</item>
+        <item>Zoo\'s Sweethearts: Delving into the Most Adored Animals by Visitors</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>Lions, the majestic kings of the savanna, never fail to captivate our imagination. These regal creatures possess a remarkable set of attributes that make them truly fascinating. Did you know that lions are the only truly social cat species, living in prides led by dominant males? Their powerful roars can be heard from miles away, serving as a vocal declaration of their territory. With their muscular bodies and sharp claws, lions are formidable hunters, capable of taking down large prey. They also exhibit unique behaviors such as grooming and rubbing heads as a form of bonding. Lions\' incredible speed and agility enable them to reach speeds of up to 50 miles per hour in short bursts, making them skilled predators. These are just a few of the captivating fun facts that highlight the extraordinary nature of lions, showcasing their rightful place as the kings of the savanna.</item>
+        <item>Orangutans are one of the most beloved animals by zoo visitors. With expressive faces and adorable movements, orangutans capture
+attention with their unique personalities.Visitors enjoy watching them use tools, play, and interact with their surroundings.The intelligence of orangutans is also a captivating aspect, as they can solve puzzles and demonstrate remarkable learning abilities.Orangutans, known for their gentle nature and gentle disposition, have a special place in the hearts of zoo visitors. Their endearing behaviors, such as swinging from branches and grooming each other, create a sense of wonder and admiration. These majestic creatures form deep social bonds and exhibit nurturing behaviors towards their young, further enchanting visitors. Whether it\'s observing their graceful movements or witnessing their strong familial connections, the charm of orangutans is truly captivating and leaves a lasting impression on zoo-goers.
+        </item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/lion</item>
+        <item>@drawable/orangutan</item>
+    </integer-array>
+
+</resources>

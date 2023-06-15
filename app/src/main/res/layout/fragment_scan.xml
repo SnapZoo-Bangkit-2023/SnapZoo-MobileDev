@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_hutan"
+    tools:context=".ui.scan.ScanFragment">
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+  <ImageView
+      android:id="@+id/previewImage"
+      android:layout_width="407dp"
+      android:layout_height="421dp"
+      android:layout_marginTop="8dp"
+      android:src="@drawable/previewscann"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/camera_button"
+      android:layout_width="128dp"
+      android:layout_height="57dp"
+      android:layout_marginTop="52dp"
+      android:backgroundTint="@color/green"
+      android:text="Take Photo"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/previewImage" />
+
+
+  <Button
+      android:id="@+id/confirm_button"
+      android:layout_width="128dp"
+      android:layout_height="57dp"
+      android:backgroundTint="@color/green"
+      android:text="Predict"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/camera_button"
+      app:layout_constraintVertical_bias="0.072" />
+
+  <ProgressBar
+      android:id="@+id/progressBar"
+      style="?android:attr/progressBarStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:visibility="gone"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/camera_button"
+      app:layout_constraintVertical_bias="0.242" />
+
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
